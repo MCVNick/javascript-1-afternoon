@@ -90,7 +90,7 @@ var ruff = dog.bark();
 var looper = arr => {
   var mySum = 0;
   arr.forEach(element => {
-    if(element % 2 == 1 || element >= 100){
+    if(element % 2 === 1 || element >= 100){
       mySum += element;
     }
   })
